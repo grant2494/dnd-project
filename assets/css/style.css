@@ -95,8 +95,18 @@ main {
 }
 
 /*footer section */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #948979;
 }
 
 /*media query: tabelts and larger (768 px and up */
@@ -135,9 +145,9 @@ footer {
     }
 }
 
-/*media query: laptop and larger (992 px and up */
+/*media query: laptop and larger (992 px and up) */
 @media screen and (min-width:992px) {
-    menu a:hover {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
