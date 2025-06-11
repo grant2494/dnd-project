@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #3a3a3a ;
+    color: #dc2525;
     font-family: 'PT serif', sans-serif;
 }
 header {
@@ -27,6 +27,10 @@ header {
     
 }
 
+header a {
+    text-decoration: 0;
+    color: inherit;
+}
 
 
 main {
@@ -41,4 +45,6 @@ footer {
 h1 {
     color: #9bc09c;
     font-family: 'abrilfatface', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
