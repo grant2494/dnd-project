@@ -81,11 +81,16 @@ nav {
     display: none;
 }
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*Main content */
 main {
     background-color: lightblue;
     /* main element made larger to push foot to bottom */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 
