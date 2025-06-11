@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #dc2525;
+    color: #948979;
     font-family: 'PT serif', sans-serif;
 }
 header {
@@ -33,18 +33,47 @@ header a {
 }
 
 
-main {
-    background-color: lightblue;
-    /* maon element made larger to push foot to bottom */
-    flex: 1 0 auto;
-}
-
-footer {
-    background-color: orange;
-}
 h1 {
     color: #9bc09c;
     font-family: 'abrilfatface', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em
+}
+
+.active {
+    border-bottom: 1px solid #948879 ;
+}
+
+/*Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    text-decoration: 0;
+    padding: 0 1rem;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    
+}
+
+/*Main content */
+main {
+    background-color: lightblue;
+    /* main element made larger to push foot to bottom */
+    flex: 1 0 auto;
+}
+
+
+footer {
+    background-color: orange;
 }
