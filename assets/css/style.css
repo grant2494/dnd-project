@@ -17,6 +17,14 @@ body {
     color: #948979;
     font-family: 'PT serif', sans-serif;
 }
+
+h1, h2 ,h3 {
+    color: #9bc09c;
+    font-family: 'abrilfatface', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -36,12 +44,7 @@ header a {
 }
 
 
-h1 {
-    color: #9bc09c;
-    font-family: 'abrilfatface', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+
 
 #menu {
     font-size: 110%;
@@ -100,6 +103,24 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/DALL·E-2024-11-09-18.13.58-A-wide-epic-watercolor-illustration.webp) no-repeat center center/cover; 
+    position: relative;
+
+}
+
+#cover-text {
+    background-color: rgba(77, 3, 2, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 40px;
+    width: 60%;
+    min-height: 100px;
+    padding-top:20px ;
+    padding-left: 10px;
+    
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #948879;
 }
 /*footer section */
 #social-networks {
