@@ -141,6 +141,14 @@ hr {border-top: 1px solid #9bc09c;}
 #cover-text > h2, #cover-text > h3 {
     color: #948879;
 }
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url(../images/image\ dnd.webp) no-repeat center/cover; 
+    margin-bottom: 20px;
+
+}
 /*footer section */
 #social-networks {
     text-align: center;
