@@ -145,10 +145,21 @@ hr {border-top: 1px solid #9bc09c;}
 #circle-cover-bg {
     height: 90vw;
     width: 90vw;
-    background: url(../images/image\ dnd.webp) no-repeat center/cover; 
+    background: url(../images/circle\ image.png) no-repeat center/cover; 
     margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 
 }
+
+#main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*footer section */
 #social-networks {
     text-align: center;
@@ -203,6 +214,22 @@ hr {border-top: 1px solid #9bc09c;}
         width: 300px;
         right: 50px;
     }
+    #benefits-1,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-1 > div,
+    #benefits-mental > div {
+        width: 75%;
+    }
+
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 /*media query: laptop and larger (992 px and up) */
@@ -210,4 +237,35 @@ hr {border-top: 1px solid #9bc09c;}
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+/*media query: computer and larger (1200 px and up) */
+@media screen and (min-width:1200px) {
+   /*Benefits section */
+   
+   #benefits {
+    display: flex;
+    flex-direction: row;
+   }
+
+   #benefits > div {
+    flex: 1;
+   }
+
+   #main-image {
+    order: 0;
+   }
+
+   #benefits-mental {
+    order: 1;
+   }
+
+   #benefits-mental > div {
+    align-self: flex-start;
+   }
+
+   #benefits-1 {
+    align-self: flex-end;
+   }
+
 }
