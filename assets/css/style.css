@@ -99,6 +99,8 @@ main {
 
 /*Information section */
 
+
+
 #reasons h2{
     margin-bottom: 20px;
     text-align: center;
@@ -109,8 +111,8 @@ main {
     margin: 20px auto;
 }
 
-#benefits-1>div,
-#benefits-mental>div {
+#benefits-1 > div,
+#benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -164,6 +166,29 @@ main {
     justify-content: center;
 }
 
+#games {
+    background: url(../images/dark_fantasy_landscape_2_by_obsidianplanet_dful2zg-fullview.jpg) no-repeat center/cover;
+    /* Add responsivness with media q */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#games div {
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*This will not wrap on screens less that 400px and expand to fill page on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*create stylish grid */
+    border: 2px solid white;
+}
+
+#games h3 {
+    /*overriding set styles of main text */
+    color: #ffffff;
+}
 
 /*footer section */
 #social-networks {
@@ -180,7 +205,7 @@ main {
     color: #948979;
 }
 
-/*media query: tabelts and larger (768 px and up */
+/*media query: tabelts and larger (768 px and up} */
 @media screen and (min-width:768px) {
     /*Header*/
     nav {
@@ -219,14 +244,16 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    /*Information section */
     #benefits-1,
     #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    #benefits-1 > div,
-    #benefits-mental > div {
+    #benefits-1>div,
+    #benefits-mental>div {
         width: 75%;
         
     }
