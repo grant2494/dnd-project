@@ -15,11 +15,12 @@ body {
     /*generic project styles*/
     color: #948979;
     font-family: 'IM Fell English', static;
+    
 }
 
 h1, h2 ,h3 {
     color: #9bc09c;
-    font-family: 'cinzel decorative', static;
+    font-family: 'Im Fell English', static;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -67,6 +68,7 @@ header a {
 /*Navbar styles with dropdown toggle */
 nav {
     position: absolute;
+    /*tested different colours for background following UI*/
     background-color: #ffffff;
     padding: 0 1rem;
     width: 100%;
