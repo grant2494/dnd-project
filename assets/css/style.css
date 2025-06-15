@@ -13,13 +13,13 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #948979;
+    color: #9BC09C;
     font-family: 'IM Fell English', static;
     
 }
 
 h1, h2 ,h3 {
-    color: #9bc09c;
+    color: #9BC09C;
     font-family: 'Im Fell English', static;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -36,7 +36,7 @@ header {
     position: fixed;
     z-index: 99;
     width :100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #9BC09C;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -118,7 +118,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(77, 3, 2, 0.7);
+    background-color: rgba(144, 30, 62, 0.6);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -130,7 +130,7 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #948879;
+    color: #9BC09C;
 }
 
 /*Information section */
@@ -184,7 +184,7 @@ main {
 }
 
 #games div {
-    color:#ffffff;
+    color:#9BC09C;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
@@ -197,7 +197,7 @@ main {
 
 #games h3 {
     /*overriding set styles of main text */
-    color: #ffffff;
+    color: #9BC09C;
 }
 
 /*Gallery Styles */
@@ -223,20 +223,20 @@ main {
 }
 
 #signup-form {
-    color: #ffffff;
+    color: #9BC09C;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
     
 }
 
 #signup-form > h2 {
-    color: #fafafa;
+    color: 9BC09C;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #9BC09C;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -259,7 +259,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #454b1b;
-    color: #fafafa;
+    color: #f6f8f6;
 }
 
 /*footer section */
