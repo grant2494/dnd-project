@@ -118,7 +118,53 @@ Register - [https://i0.wp.com/www.strangeassembly.com/wp-content/uploads/2014/09
 
 **Wire Frames**
 
+**Credits**
+
+I mainly used the projects completed in order to aid my project, i relied on help from the love running project and rereviewed the HTML and CSS topics while i went to ensure code was correctly typed. 
+
+On a occasion i used material such as the for specifications and wesite positioning from the past training. This helped to make sure everything was evenly spaced out and readable. 
+
+All images where used from the above sources. 
+
 # Bugs discovered
+
+* Register page hero image doesnt cover full page, leaves a white space between image and top of page. 
+
+* Font shows on preview but doenst pull through to deployment.
+
+* Home page hero image cut off at the top rather than being more centered.
+
+* text on left hand side shows as lower than right on full screen.
+
+* I couldnt get the messager symbol to pull acorss to all pages, i spent a lot of time trying to resolve this in the index.html and the style.css documents before i realised this was due to the inital header and footer being copied before I added the messenger option code copied over and fixed issues. This also help me realise that issue was stopping the icon after the header. 
+
+* At first I was creating a website for Yoga Classes but noticed a personal bud and wanted to more focus on something i felt i could engage better with. This also followed further discussion with friends and family which confirmed my new purpose. 
+
+*I used favicons and tested a few of these in practice. These varied from images converted from photos and stock favicons however it was hard to find on that looked good at such a small size which was also noticable and relevant. I moved away from image conversions as this seemed too difficult to view all detail when shrunk. following user research I decided on the used Die.
+
+* I realised part way through that one of my main goals was to create open and easy communciation after creating the site user research taught me that a direct message option would massively improve this, using icons everyone knows and loves to create an open channel.
+
+* During the project I found it a struggle to remember to save changes and push at times in order to directly impact the early deployment so I could show people to get live feedback, through the process i truly learned the method to pull through changes rather than changing the code itself. this helped me with deployment and UI. 
+
+* Throughout the process there were multiple images used to check how they looked and scrapped, this was due to inconsistent resolution of images which looked great in some spaces but not in others. I tested these images on different screens and practiced throughout the project making sure the end product met mine and the users needs. 
+
+
+# Deployment 
+
+This project was built using VS code, committed to git and pushed git hub using the terminal located within VS code.
+
+This is how i deployed the github pages from its repository:
+
+1. Log into GitHub.
+2. From the list of repositories, select *dnd-project*.
+3. From the menu items near the top, select *settings*.
+4. Scroll down to *GitHub Pages*. 
+5. Under the *Source* click the drop-down menu labelled *None* and select *Master Branch*
+6. The page will now refresh so give it a moment, The website is now deployed.
+7. Scroll back down to *GitHub Pages*  and retrieve the link to the website. 
+
+
+# Testing
 
 
 
