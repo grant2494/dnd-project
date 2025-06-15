@@ -118,6 +118,8 @@ Register - [https://i0.wp.com/www.strangeassembly.com/wp-content/uploads/2014/09
 
 **Wire Frames**
 
+
+
 **Credits**
 
 I mainly used the projects completed in order to aid my project, i relied on help from the love running project and rereviewed the HTML and CSS topics while i went to ensure code was correctly typed. 
@@ -135,6 +137,8 @@ All images where used from the above sources.
 * Home page hero image cut off at the top rather than being more centered.
 
 * text on left hand side shows as lower than right on full screen.
+
+* As the project started as a yoga project that is still showing somewhere how to remove.
 
 * I couldnt get the messager symbol to pull acorss to all pages, i spent a lot of time trying to resolve this in the index.html and the style.css documents before i realised this was due to the inital header and footer being copied before I added the messenger option code copied over and fixed issues. This also help me realise that issue was stopping the icon after the header. 
 
@@ -169,7 +173,7 @@ This is how i deployed the github pages from its repository:
 
 
 
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
 
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+
+
 
