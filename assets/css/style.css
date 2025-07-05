@@ -112,7 +112,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/dungeons_and_dragons_group_commission_art_by_envakenkaqti_de0nvqd-fullview.jpg) no-repeat center center/cover; 
+    background: url(../images/Hero-image.jpg) no-repeat center center/cover; 
     position: relative;
 
 }
@@ -160,7 +160,8 @@ main {
 #circle-cover-bg {
     height: 90vw;
     width: 90vw;
-    background: url(../images/circle\ image.png) no-repeat center/cover; 
+    /*Added complex unrelated names to images fix required*/
+    background: url(../images/Circle-Image.png) no-repeat center/cover; 
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -177,7 +178,7 @@ main {
 
 /*Games section */
 #games {
-    background: url(../images/dark_fantasy_landscape_2_by_obsidianplanet_dful2zg-fullview.jpg) no-repeat center/cover;
+    background: url(../images/Dark-background-for-events.jpg) no-repeat center/cover;
     /* Add responsivness with media q */
     display: flex;
     flex-wrap: wrap;
@@ -215,9 +216,9 @@ main {
 /*Register Page*/
 
 #signup {
-    background-image: url(../images/wallpapersden.com_dungeons-and-dragons-monster-manual_1920x1080.jpg);
+    background-image: url(../images/Dungeons-and-dragons-monster.jpg);
     background-size: cover;
-    background-position: 75%;
+    background-position: 125%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
